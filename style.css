@@ -1,13 +1,13 @@
 body{
     font-family: 'Oswald', sans-serif;
-    margin: 5%;
+    
 }
 h1{
     font-size: 50px;
 }
 
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 .half-width{
     float: left;
@@ -18,7 +18,7 @@ h1{
 
 .button-design{
     background-image: linear-gradient(45deg,lightsalmon, tomato);
-    color: bisque;
+    /* color: bisque; */
     font-weight: 800;
     text-decoration: none;
     padding: 10px 10px;
@@ -32,13 +32,16 @@ section{
     background-position: center;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;   
+    margin: 0%; 
 }
 
-.middle-part{
-    
+.middle-part{    
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
 }
 .lower-part{
     height: 500px;
+}
+.resize{
+    padding: 25px;
 }
