@@ -11,8 +11,8 @@ h1{
 }
 .half-width{
     float: left;
-    margin-left: 2% ;
-    padding-left: 2% ;
+    margin-left: 7% ;
+    padding-left: 3% ;
     width: 40% ;
 }
 
@@ -25,6 +25,20 @@ h1{
     border-radius: 10px;    
 }
 section{
-    height: 500px;
+    height: 500px;   
+}
+.upper-part{
+    background-size: 90%;
+    background-position: center;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;   
+}
+
+.middle-part{
     
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.lower-part{
+    height: 500px;
 }
